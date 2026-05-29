@@ -1,0 +1,32 @@
+{
+  "name": "pixel-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Serverless 1×1 email tracking pixel on Next.js + Vercel + Upstash Redis. Tracks opens, clicks, campaigns, with webhooks and a live dashboard.",
+  "homepage": "https://github.com/anujarkitekt/pixel-tracker-vercel#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anujarkitekt/pixel-tracker-vercel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anujarkitekt/pixel-tracker-vercel/issues"
+  },
+  "license": "MIT",
+  "author": "Anuj Singh",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:preview": "./scripts/deploy.sh --preview",
+    "deploy:no-git": "./scripts/deploy.sh --no-git",
+    "deploy:fast": "./scripts/deploy.sh --skip-env"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "@vercel/analytics": "^1.4.1",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

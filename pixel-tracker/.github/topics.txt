@@ -1,0 +1,25 @@
+# GitHub topics for this repo (apply via Settings → Topics, or:
+#   gh repo edit anujarkitekt/pixel-tracker-vercel --add-topic <topic>
+# )
+# Max 20 topics. Ordered most → least valuable for discovery.
+
+pixel-tracker
+email-tracking
+open-tracking
+click-tracking
+email-analytics
+tracking-pixel
+nextjs
+vercel
+serverless
+upstash
+upstash-redis
+redis
+analytics
+webhooks
+marketing-automation
+email-marketing
+campaign-tracking
+zero-config
+javascript
+demo
